@@ -1,0 +1,79 @@
+
+/* Google fonts : import 400 and 700 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* Setting CSS varaiables for colors */
+:root{
+
+  --white:hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+
+}
+
+/* Setting border-box property for all componenets */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background: var(--white);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400; /*normal boldness*/
+  font-size: 15px;
+  margin: auto;
+  background: hsl(212, 45%, 89%);
+  padding: 40px 10px;
+  }
+
+
+.container{
+  text-align: center;
+  line-height: 1.5rem;
+  border-radius: 1rem;
+  background: white;
+  width:90%;
+  border-radius: 1rem;
+  margin: auto;
+  padding:0.3rem;
+}
+
+.qrcode{
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding:1rem;
+}
+
+.qr-img{
+height:100%;
+width:100%;
+border-radius: 1rem;
+
+}
+
+.text-area{
+  padding: 1rem 2rem;
+}
+
+h2{
+  font-weight: 700;
+}
+
+.paragraph{
+  color:rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 800px){
+
+  .container{
+    height:50%;
+    width:50%;
+  }
+
+
+}
